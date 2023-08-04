@@ -9,11 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="Annotation RequestParam">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first/calculator.html" afterDir="false" />
+    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="передача данных от контроллера к представлению">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691060869957</updated>
       <workItem from="1691060870958" duration="405000" />
-      <workItem from="1691061301928" duration="15097000" />
+      <workItem from="1691061301928" duration="19602000" />
     </task>
     <task id="LOCAL-00001" summary="Annotation RequestParam">
       <option name="closed" value="true" />
@@ -177,15 +179,35 @@
       <option name="project" value="LOCAL" />
       <updated>1691078053434</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="передача данных от контроллера к представлению">
+      <option name="closed" value="true" />
+      <created>1691080371993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691080371993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Annotation RequestParam" />
-    <option name="LAST_COMMIT_MESSAGE" value="Annotation RequestParam" />
+    <MESSAGE value="передача данных от контроллера к представлению" />
+    <option name="LAST_COMMIT_MESSAGE" value="передача данных от контроллера к представлению" />
   </component>
 </project>
