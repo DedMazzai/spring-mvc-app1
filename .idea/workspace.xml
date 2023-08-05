@@ -9,12 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="add DAO">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" afterDir="false" />
+    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="добавлено создание нового объекта">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/config/MyWebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/config/MyWebInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "c07a7db8416b3c89509ae1591c19403d",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -168,7 +172,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691060869957</updated>
       <workItem from="1691060870958" duration="405000" />
-      <workItem from="1691061301928" duration="22303000" />
+      <workItem from="1691061301928" duration="24756000" />
+      <workItem from="1691248825419" duration="2202000" />
     </task>
     <task id="LOCAL-00001" summary="Annotation RequestParam">
       <option name="closed" value="true" />
@@ -194,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691165685963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавлено создание нового объекта">
+      <option name="closed" value="true" />
+      <created>1691168150955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691168150955</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +229,7 @@
     <MESSAGE value="Annotation RequestParam" />
     <MESSAGE value="передача данных от контроллера к представлению" />
     <MESSAGE value="add DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DAO" />
+    <MESSAGE value="добавлено создание нового объекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено создание нового объекта" />
   </component>
 </project>
