@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="добавлена валидация полей объекта Person">
+    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="создание SQL запроса с помощью statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +173,7 @@
       <workItem from="1691060870958" duration="405000" />
       <workItem from="1691061301928" duration="24756000" />
       <workItem from="1691248825419" duration="7924000" />
-      <workItem from="1691344333556" duration="2726000" />
+      <workItem from="1691344333556" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="Annotation RequestParam">
       <option name="closed" value="true" />
@@ -224,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691341701379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="создание SQL запроса с помощью statement">
+      <option name="closed" value="true" />
+      <created>1691347242743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691347242743</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +256,7 @@
     <MESSAGE value="добавлено создание нового объекта" />
     <MESSAGE value="добавлено изменение и удаление нового объекта" />
     <MESSAGE value="добавлена валидация полей объекта Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлена валидация полей объекта Person" />
+    <MESSAGE value="создание SQL запроса с помощью statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="создание SQL запроса с помощью statement" />
   </component>
 </project>
