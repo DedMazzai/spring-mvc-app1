@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="создание SQL запроса с помощью statement">
+    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="создание SQL запроса с помощью preparedStatement противSQL иньекций">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/config/MyConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -173,7 +176,10 @@
       <workItem from="1691060870958" duration="405000" />
       <workItem from="1691061301928" duration="24756000" />
       <workItem from="1691248825419" duration="7924000" />
-      <workItem from="1691344333556" duration="4124000" />
+      <workItem from="1691344333556" duration="4390000" />
+      <workItem from="1691415174701" duration="663000" />
+      <workItem from="1691418401150" duration="1130000" />
+      <workItem from="1691421194445" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="Annotation RequestParam">
       <option name="closed" value="true" />
@@ -231,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691347242743</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="создание SQL запроса с помощью preparedStatement противSQL иньекций">
+      <option name="closed" value="true" />
+      <created>1691348798990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691348798990</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +256,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -257,6 +277,7 @@
     <MESSAGE value="добавлено изменение и удаление нового объекта" />
     <MESSAGE value="добавлена валидация полей объекта Person" />
     <MESSAGE value="создание SQL запроса с помощью statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание SQL запроса с помощью statement" />
+    <MESSAGE value="создание SQL запроса с помощью preparedStatement противSQL иньекций" />
+    <option name="LAST_COMMIT_MESSAGE" value="создание SQL запроса с помощью preparedStatement противSQL иньекций" />
   </component>
 </project>
