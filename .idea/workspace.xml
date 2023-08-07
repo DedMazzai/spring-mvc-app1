@@ -10,12 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="переписал приложение на JDBC Template">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +177,7 @@
       <workItem from="1691344333556" duration="4390000" />
       <workItem from="1691415174701" duration="663000" />
       <workItem from="1691418401150" duration="1130000" />
-      <workItem from="1691421194445" duration="3983000" />
+      <workItem from="1691421194445" duration="7635000" />
     </task>
     <task id="LOCAL-00001" summary="Annotation RequestParam">
       <option name="closed" value="true" />
@@ -255,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691423812281</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="переписал приложение на JDBC Template">
+      <option name="closed" value="true" />
+      <created>1691426015925</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691426015925</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
