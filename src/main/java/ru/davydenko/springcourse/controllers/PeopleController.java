@@ -67,7 +67,9 @@ public class PeopleController {
     public String update(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult,
                          @PathVariable("id") int id) {
-        personValidator.validate(person, bindingResult);
+
+        if(!person.getEmail().equals(personDAO.show(id).getEmail()))
+            personValidator.validate(person, bindingResult);
 
         if (bindingResult.hasErrors()) {
             return "people/edit";
