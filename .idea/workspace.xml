@@ -9,23 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="переписал приложение Spring Data JPA">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="08555c1d-56ed-42e8-8b12-a5ab2b6d6028" name="Changes" comment="добавлена работа со временем">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/models/Mood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/dao/PersonMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/services/PeopleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/davydenko/springcourse/util/PersonValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EndpointsView">
+    <option name="showSidePanel" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +29,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -68,7 +65,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Konstantin/IdeaProjects/spring-mvc-app1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Konstantin/IdeaProjects/HidernateApp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,6 +73,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;c07a7db8416b3c89509ae1591c19403d&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -194,7 +192,8 @@
       <workItem from="1691688979797" duration="107000" />
       <workItem from="1692028522207" duration="6845000" />
       <workItem from="1692086287313" duration="10125000" />
-      <workItem from="1692114002404" duration="324000" />
+      <workItem from="1692114002404" duration="9506000" />
+      <workItem from="1692360794421" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="Annotation RequestParam">
       <option name="closed" value="true" />
@@ -324,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692110366727</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="добавлена работа со временем">
+      <option name="closed" value="true" />
+      <created>1692114451176</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692114451176</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +371,7 @@
     <MESSAGE value="исправил ошибку валидации email при обновлении Person" />
     <MESSAGE value="переписал приложение на Hibernate" />
     <MESSAGE value="переписал приложение Spring Data JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="переписал приложение Spring Data JPA" />
+    <MESSAGE value="добавлена работа со временем" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена работа со временем" />
   </component>
 </project>
