@@ -9,6 +9,7 @@ import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
+import java.util.Objects;
 
 @Getter
 @Setter
@@ -62,4 +63,19 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return id == person.id && age == person.age && Objects.equals(name, person.name)
+                && Objects.equals(email, person.email) && Objects.equals(address, person.address)
+                && Objects.equals(dateOfBirth, person.dateOfBirth)
+                && Objects.equals(createdAt, person.createdAt) && mood == person.mood;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, age, email, address, dateOfBirth, createdAt, mood);
+    }
 }
